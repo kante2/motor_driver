@@ -1,0 +1,61 @@
+[0.021s] Invoking command in '/home/autonav/KAIST_Mobility_Challenge_SDK/build/KMC_HARDWARE_uart_sdk': /usr/bin/cmake /home/autonav/KAIST_Mobility_Challenge_SDK -DCMAKE_INSTALL_PREFIX=/home/autonav/KAIST_Mobility_Challenge_SDK/install/KMC_HARDWARE_uart_sdk
+[0.147s] -- The CXX compiler identification is GNU 9.4.0
+[0.156s] -- Check for working CXX compiler: /usr/bin/c++
+[0.301s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.305s] -- Detecting CXX compiler ABI info
+[0.462s] -- Detecting CXX compiler ABI info - done
+[0.488s] -- Detecting CXX compile features
+[0.489s] -- Detecting CXX compile features - done
+[0.492s] -- Looking for C++ include pthread.h
+[0.652s] -- Looking for C++ include pthread.h - found
+[0.652s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.819s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.820s] -- Looking for pthread_create in pthreads
+[0.959s] -- Looking for pthread_create in pthreads - not found
+[0.959s] -- Looking for pthread_create in pthread
+[1.120s] -- Looking for pthread_create in pthread - found
+[1.122s] -- Found Threads: TRUE  
+[1.125s] -- Configuring done
+[1.155s] -- Generating done
+[1.163s] -- Build files have been written to: /home/autonav/KAIST_Mobility_Challenge_SDK/build/KMC_HARDWARE_uart_sdk
+[1.170s] Invoked command in '/home/autonav/KAIST_Mobility_Challenge_SDK/build/KMC_HARDWARE_uart_sdk' returned '0': /usr/bin/cmake /home/autonav/KAIST_Mobility_Challenge_SDK -DCMAKE_INSTALL_PREFIX=/home/autonav/KAIST_Mobility_Challenge_SDK/install/KMC_HARDWARE_uart_sdk
+[1.177s] Invoking command in '/home/autonav/KAIST_Mobility_Challenge_SDK/build/KMC_HARDWARE_uart_sdk': /usr/bin/cmake --build /home/autonav/KAIST_Mobility_Challenge_SDK/build/KMC_HARDWARE_uart_sdk -- -j4 -l4
+[1.261s] [35m[1mScanning dependencies of target KMC_HARDWARE_uart[0m
+[1.283s] [ 15%] [32mBuilding CXX object CMakeFiles/KMC_HARDWARE_uart.dir/src/KMC_serial_port.cpp.o[0m
+[1.284s] [ 15%] [32mBuilding CXX object CMakeFiles/KMC_HARDWARE_uart.dir/src/KMC_uart_client.cpp.o[0m
+[1.284s] [ 15%] [32mBuilding CXX object CMakeFiles/KMC_HARDWARE_uart.dir/src/KMC_driver.cpp.o[0m
+[4.025s] [ 20%] [32m[1mLinking CXX static library libKMC_HARDWARE_uart.a[0m
+[4.111s] [ 20%] Built target KMC_HARDWARE_uart
+[4.131s] [35m[1mScanning dependencies of target read_allstate[0m
+[4.131s] [35m[1mScanning dependencies of target read_battery[0m
+[4.131s] [35m[1mScanning dependencies of target teleop_and_speed[0m
+[4.132s] [35m[1mScanning dependencies of target high_rate_control[0m
+[4.154s] [ 35%] [32mBuilding CXX object CMakeFiles/high_rate_control.dir/examples/Driver_Intermediate/high_rate_control.cpp.o[0m
+[4.154s] [ 35%] [32mBuilding CXX object CMakeFiles/teleop_and_speed.dir/examples/UartClient_Advanced/teleop_and_speed.cpp.o[0m
+[4.157s] [ 35%] [32mBuilding CXX object CMakeFiles/read_battery.dir/examples/UartClient_Advanced/read_battery.cpp.o[0m
+[4.158s] [ 40%] [32mBuilding CXX object CMakeFiles/read_allstate.dir/examples/UartClient_Advanced/read_allstate.cpp.o[0m
+[5.515s] [ 45%] [32m[1mLinking CXX executable teleop_and_speed[0m
+[5.585s] [ 50%] [32m[1mLinking CXX executable high_rate_control[0m
+[5.606s] [ 55%] [32m[1mLinking CXX executable read_allstate[0m
+[5.829s] [ 55%] Built target high_rate_control
+[5.829s] [ 55%] Built target teleop_and_speed
+[5.851s] [ 55%] Built target read_allstate
+[5.852s] [35m[1mScanning dependencies of target read_speed[0m
+[5.852s] [35m[1mScanning dependencies of target driver_observe[0m
+[5.876s] [ 60%] [32mBuilding CXX object CMakeFiles/driver_observe.dir/examples/Driver_Intermediate/driver_observe.cpp.o[0m
+[5.877s] [ 65%] [32mBuilding CXX object CMakeFiles/read_speed.dir/examples/UartClient_Advanced/read_speed.cpp.o[0m
+[5.878s] [35m[1mScanning dependencies of target driver_demo[0m
+[5.906s] [ 70%] [32mBuilding CXX object CMakeFiles/driver_demo.dir/examples/Driver_Basic/driver_demo.cpp.o[0m
+[5.917s] [ 75%] [32m[1mLinking CXX executable read_battery[0m
+[6.168s] [ 75%] Built target read_battery
+[6.195s] [35m[1mScanning dependencies of target driver_read_allstate[0m
+[6.221s] [ 80%] [32mBuilding CXX object CMakeFiles/driver_read_allstate.dir/examples/Driver_Intermediate/driver_read_allstate.cpp.o[0m
+[7.206s] [ 85%] [32m[1mLinking CXX executable driver_demo[0m
+[7.277s] [ 90%] [32m[1mLinking CXX executable read_speed[0m
+[7.493s] [ 90%] Built target driver_demo
+[7.522s] [ 95%] [32m[1mLinking CXX executable driver_observe[0m
+[7.563s] [ 95%] Built target read_speed
+[7.768s] [ 95%] Built target driver_observe
+[7.835s] [100%] [32m[1mLinking CXX executable driver_read_allstate[0m
+[8.063s] [100%] Built target driver_read_allstate
+[8.092s] Invoked command in '/home/autonav/KAIST_Mobility_Challenge_SDK/build/KMC_HARDWARE_uart_sdk' returned '0': /usr/bin/cmake --build /home/autonav/KAIST_Mobility_Challenge_SDK/build/KMC_HARDWARE_uart_sdk -- -j4 -l4

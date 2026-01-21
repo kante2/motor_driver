@@ -1,0 +1,37 @@
+[0.036s] Invoking command in '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/build/kmc_hardware_driver_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/build/kmc_hardware_driver_node -- -j4 -l4
+[0.183s] [ 28%] Built target KMC_HARDWARE_uart
+[0.226s] [35m[1mScanning dependencies of target kmc_hardware_driver_demo_node_ver2[0m
+[0.276s] [ 42%] Built target kmc_hardware_driver_demo_node
+[0.333s] [ 57%] Built target kmc_hardware_driver_read_allstate_node
+[0.382s] [ 92%] Built target kmc_hardware_high_rate_control_node
+[0.384s] [ 92%] Built target kmc_hardware_driver_observe_node
+[0.395s] [ 92%] [32mBuilding CXX object CMakeFiles/kmc_hardware_driver_demo_node_ver2.dir/src/driver_demo_node_ver2.cpp.o[0m
+[13.113s] [100%] [32m[1mLinking CXX executable kmc_hardware_driver_demo_node_ver2[0m
+[13.745s] Built target kmc_hardware_driver_demo_node_ver2
+[13.767s] Invoked command in '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/build/kmc_hardware_driver_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/build/kmc_hardware_driver_node -- -j4 -l4
+[13.793s] Invoking command in '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/build/kmc_hardware_driver_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/build/kmc_hardware_driver_node
+[13.809s] -- Install configuration: ""
+[13.810s] -- Execute custom install script
+[13.811s] -- Up-to-date symlink: /home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/kmc_hardware_driver_node/web/index.html
+[13.812s] -- Up-to-date symlink: /home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/lib/kmc_hardware_driver_node/kmc_hardware_driver_demo_node
+[13.813s] -- Up-to-date symlink: /home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/lib/kmc_hardware_driver_node/kmc_hardware_driver_demo_node_ver2
+[13.814s] -- Up-to-date symlink: /home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/lib/kmc_hardware_driver_node/kmc_hardware_driver_observe_node
+[13.814s] -- Up-to-date symlink: /home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/lib/kmc_hardware_driver_node/kmc_hardware_driver_read_allstate_node
+[13.815s] -- Up-to-date symlink: /home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/lib/kmc_hardware_driver_node/kmc_hardware_high_rate_control_node
+[13.815s] -- Up-to-date symlink: /home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/ament_index/resource_index/package_run_dependencies/kmc_hardware_driver_node
+[13.816s] -- Up-to-date symlink: /home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/ament_index/resource_index/parent_prefix_path/kmc_hardware_driver_node
+[13.821s] -- Up-to-date symlink: /home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/kmc_hardware_driver_node/environment/ament_prefix_path.sh
+[13.825s] -- Up-to-date symlink: /home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/kmc_hardware_driver_node/environment/ament_prefix_path.dsv
+[13.825s] -- Up-to-date symlink: /home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/kmc_hardware_driver_node/environment/path.sh
+[13.825s] -- Up-to-date symlink: /home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/kmc_hardware_driver_node/environment/path.dsv
+[13.825s] -- Up-to-date symlink: /home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/kmc_hardware_driver_node/local_setup.bash
+[13.826s] -- Up-to-date symlink: /home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/kmc_hardware_driver_node/local_setup.sh
+[13.826s] -- Up-to-date symlink: /home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/kmc_hardware_driver_node/local_setup.zsh
+[13.826s] -- Up-to-date symlink: /home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/kmc_hardware_driver_node/local_setup.dsv
+[13.826s] -- Up-to-date symlink: /home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/kmc_hardware_driver_node/package.dsv
+[13.826s] -- Up-to-date symlink: /home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/ament_index/resource_index/packages/kmc_hardware_driver_node
+[13.826s] -- Up-to-date symlink: /home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/kmc_hardware_driver_node/cmake/kmc_hardware_driver_nodeConfig.cmake
+[13.827s] -- Up-to-date symlink: /home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/kmc_hardware_driver_node/cmake/kmc_hardware_driver_nodeConfig-version.cmake
+[13.828s] -- Up-to-date symlink: /home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/kmc_hardware_driver_node/package.xml
+[13.829s] -- Up-to-date: /home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/lib/kmc_hardware_driver_node/kmc_web_joystick_node
+[13.830s] Invoked command in '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/build/kmc_hardware_driver_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/build/kmc_hardware_driver_node

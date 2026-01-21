@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG   CMakeFiles/read_speed.dir/examples/UartClient_Advanced/read_speed.cpp.o  -o read_speed  libKMC_HARDWARE_uart.a -lpthread 

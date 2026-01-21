@@ -75,7 +75,7 @@ private:
   rclcpp::TimerBase::SharedPtr cmd_timer_;
 
   std::string port_;
-  int baud_{115200};
+  int baud_{115200}; // *** 
   double control_rate_hz_{100.0};
   double vehicle_speed_rate_hz_{1.0};
   int command_timeout_ms_{200};

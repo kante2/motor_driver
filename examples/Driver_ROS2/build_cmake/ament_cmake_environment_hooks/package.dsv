@@ -1,0 +1,4 @@
+source;share/kmc_hardware_driver_node/local_setup.bash
+source;share/kmc_hardware_driver_node/local_setup.dsv
+source;share/kmc_hardware_driver_node/local_setup.sh
+source;share/kmc_hardware_driver_node/local_setup.zsh

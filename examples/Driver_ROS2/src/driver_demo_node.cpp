@@ -24,7 +24,7 @@ public:
     opt.serial.baudrate = baud_;
     opt.serial.hw_flow_control = true;
     opt.control_rate_hz = control_rate_hz_;
-    opt.vehicle_speed_rate_hz = vehicle_speed_rate_hz_;
+    opt.vehicle_speed_rate_hz = vehicle_speed_rate_hz_;                                                                  
     opt.command_timeout_ms = command_timeout_ms_;
     opt.realtime_priority = realtime_priority_;
     opt.cpu_affinity = cpu_affinity_;

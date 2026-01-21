@@ -1,0 +1,218 @@
+[0.591s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.591s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.591s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff9841ae50>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff9841ae50>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff982672b0>)
+[0.591s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb3f3ee20>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb3f3ee20>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffb3d8b280>)
+[0.957s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.957s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.958s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.958s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.958s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.958s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.958s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.958s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.958s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.958s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.958s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.958s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.958s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2'
+[0.958s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.995s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'kmc_hardware_driver_node'
+[0.995s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'kmc_hardware_driver_node'
+[0.995s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.995s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.995s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.995s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.995s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.995s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.995s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.995s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.995s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.996s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.037s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.037s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.038s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.038s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.045s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 257 installed packages in /opt/ros/foxy
+[1.045s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 257 installed packages in /opt/ros/foxy
+[1.047s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.048s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.228s] Level 5:colcon.colcon_core.verb:set package 'kmc_hardware_driver_node' build argument 'cmake_args' from command line to 'None'
+[1.229s] Level 5:colcon.colcon_core.verb:set package 'kmc_hardware_driver_node' build argument 'cmake_target' from command line to 'None'
+[1.229s] Level 5:colcon.colcon_core.verb:set package 'kmc_hardware_driver_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.230s] Level 5:colcon.colcon_core.verb:set package 'kmc_hardware_driver_node' build argument 'cmake_clean_cache' from command line to 'False'
+[1.230s] Level 5:colcon.colcon_core.verb:set package 'kmc_hardware_driver_node' build argument 'cmake_clean_first' from command line to 'False'
+[1.230s] Level 5:colcon.colcon_core.verb:set package 'kmc_hardware_driver_node' build argument 'cmake_force_configure' from command line to 'False'
+[1.231s] Level 5:colcon.colcon_core.verb:set package 'kmc_hardware_driver_node' build argument 'ament_cmake_args' from command line to 'None'
+[1.231s] Level 5:colcon.colcon_core.verb:set package 'kmc_hardware_driver_node' build argument 'catkin_cmake_args' from command line to 'None'
+[1.231s] Level 5:colcon.colcon_core.verb:set package 'kmc_hardware_driver_node' build argument 'cmake_args' from command line to 'None'
+[1.231s] Level 5:colcon.colcon_core.verb:set package 'kmc_hardware_driver_node' build argument 'cmake_target' from command line to 'None'
+[1.231s] Level 5:colcon.colcon_core.verb:set package 'kmc_hardware_driver_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.231s] Level 5:colcon.colcon_core.verb:set package 'kmc_hardware_driver_node' build argument 'cmake_clean_cache' from command line to 'False'
+[1.231s] Level 5:colcon.colcon_core.verb:set package 'kmc_hardware_driver_node' build argument 'cmake_clean_first' from command line to 'False'
+[1.231s] Level 5:colcon.colcon_core.verb:set package 'kmc_hardware_driver_node' build argument 'cmake_force_configure' from command line to 'False'
+[1.231s] Level 5:colcon.colcon_core.verb:set package 'kmc_hardware_driver_node' build argument 'ament_cmake_args' from command line to 'None'
+[1.231s] Level 5:colcon.colcon_core.verb:set package 'kmc_hardware_driver_node' build argument 'catkin_cmake_args' from command line to 'None'
+[1.231s] Level 5:colcon.colcon_core.verb:set package 'kmc_hardware_driver_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.232s] DEBUG:colcon.colcon_core.verb:Building package 'kmc_hardware_driver_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/build/kmc_hardware_driver_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node', 'merge_install': False, 'path': '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2', 'symlink_install': True, 'test_result_base': None}
+[1.232s] Level 5:colcon.colcon_core.verb:set package 'kmc_hardware_driver_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.232s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.232s] DEBUG:colcon.colcon_core.verb:Building package 'kmc_hardware_driver_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/build/kmc_hardware_driver_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node', 'merge_install': False, 'path': '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2', 'symlink_install': True, 'test_result_base': None}
+[1.233s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.234s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.235s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2' with build type 'ament_cmake'
+[1.235s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2'
+[1.236s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.236s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2' with build type 'ament_cmake'
+[1.237s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2'
+[1.244s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.244s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.245s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.245s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.246s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.246s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.271s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/build/kmc_hardware_driver_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/build/kmc_hardware_driver_node -- -j4 -l4
+[1.281s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/build/kmc_hardware_driver_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/build/kmc_hardware_driver_node -- -j4 -l4
+[1.634s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/build/kmc_hardware_driver_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/build/kmc_hardware_driver_node -- -j4 -l4
+[1.636s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/build/kmc_hardware_driver_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/build/kmc_hardware_driver_node -- -j4 -l4
+[1.663s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/build/kmc_hardware_driver_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/build/kmc_hardware_driver_node
+[1.664s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/build/kmc_hardware_driver_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/build/kmc_hardware_driver_node
+[1.720s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kmc_hardware_driver_node)
+[1.720s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kmc_hardware_driver_node)
+[1.721s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/build/kmc_hardware_driver_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/build/kmc_hardware_driver_node
+[1.721s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/build/kmc_hardware_driver_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/build/kmc_hardware_driver_node
+[1.730s] Level 1:colcon.colcon_core.environment:checking '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node' for CMake module files
+[1.730s] Level 1:colcon.colcon_core.environment:checking '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node' for CMake module files
+[1.731s] Level 1:colcon.colcon_core.environment:checking '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node' for CMake config files
+[1.731s] Level 1:colcon.colcon_core.environment:checking '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node' for CMake config files
+[1.732s] Level 1:colcon.colcon_core.shell:create_environment_hook('kmc_hardware_driver_node', 'cmake_prefix_path')
+[1.732s] Level 1:colcon.colcon_core.shell:create_environment_hook('kmc_hardware_driver_node', 'cmake_prefix_path')
+[1.733s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/kmc_hardware_driver_node/hook/cmake_prefix_path.ps1'
+[1.733s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/kmc_hardware_driver_node/hook/cmake_prefix_path.ps1'
+[1.735s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/kmc_hardware_driver_node/hook/cmake_prefix_path.dsv'
+[1.735s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/kmc_hardware_driver_node/hook/cmake_prefix_path.dsv'
+[1.736s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/kmc_hardware_driver_node/hook/cmake_prefix_path.sh'
+[1.737s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/kmc_hardware_driver_node/hook/cmake_prefix_path.sh'
+[1.739s] Level 1:colcon.colcon_core.environment:checking '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/lib'
+[1.739s] Level 1:colcon.colcon_core.environment:checking '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/lib'
+[1.739s] Level 1:colcon.colcon_core.environment:checking '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/bin'
+[1.740s] Level 1:colcon.colcon_core.environment:checking '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/lib/pkgconfig/kmc_hardware_driver_node.pc'
+[1.740s] Level 1:colcon.colcon_core.environment:checking '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/bin'
+[1.740s] Level 1:colcon.colcon_core.environment:checking '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/lib/pkgconfig/kmc_hardware_driver_node.pc'
+[1.740s] Level 1:colcon.colcon_core.environment:checking '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/lib/python3.8/site-packages'
+[1.740s] Level 1:colcon.colcon_core.environment:checking '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/lib/python3.8/site-packages'
+[1.741s] Level 1:colcon.colcon_core.environment:checking '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/bin'
+[1.741s] Level 1:colcon.colcon_core.environment:checking '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/bin'
+[1.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/kmc_hardware_driver_node/package.ps1'
+[1.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/kmc_hardware_driver_node/package.ps1'
+[1.743s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/kmc_hardware_driver_node/package.dsv'
+[1.743s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/kmc_hardware_driver_node/package.dsv'
+[1.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/kmc_hardware_driver_node/package.sh'
+[1.747s] ERROR:colcon.colcon_core.environment:Exception in shell extension 'dsv': [Errno 2] No such file or directory: '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/kmc_hardware_driver_node/package.dsv'
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/environment/__init__.py", line 141, in create_environment_scripts_only
+    scripts = extension.create_package_script(
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/dsv.py", line 30, in create_package_script
+    expand_template(
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 67, in expand_template
+    destination_path.unlink()
+  File "/usr/lib/python3.8/pathlib.py", line 1325, in unlink
+    self._accessor.unlink(self)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/kmc_hardware_driver_node/package.dsv'
+
+[1.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/kmc_hardware_driver_node/package.bash'
+[1.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/kmc_hardware_driver_node/package.sh'
+[1.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/kmc_hardware_driver_node/package.bash'
+[1.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/kmc_hardware_driver_node/package.zsh'
+[1.750s] INFO:colcon.colcon_core.shell:Creating package script '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/kmc_hardware_driver_node/package.zsh'
+[1.750s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/colcon-core/packages/kmc_hardware_driver_node)
+[1.752s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/colcon-core/packages/kmc_hardware_driver_node)
+[1.752s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kmc_hardware_driver_node)
+[1.753s] Level 1:colcon.colcon_core.environment:checking '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node' for CMake module files
+[1.753s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kmc_hardware_driver_node)
+[1.754s] Level 1:colcon.colcon_core.environment:checking '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node' for CMake config files
+[1.754s] Level 1:colcon.colcon_core.environment:checking '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node' for CMake module files
+[1.755s] Level 1:colcon.colcon_core.shell:create_environment_hook('kmc_hardware_driver_node', 'cmake_prefix_path')
+[1.755s] Level 1:colcon.colcon_core.environment:checking '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node' for CMake config files
+[1.755s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/kmc_hardware_driver_node/hook/cmake_prefix_path.ps1'
+[1.756s] Level 1:colcon.colcon_core.shell:create_environment_hook('kmc_hardware_driver_node', 'cmake_prefix_path')
+[1.756s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/kmc_hardware_driver_node/hook/cmake_prefix_path.dsv'
+[1.756s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/kmc_hardware_driver_node/hook/cmake_prefix_path.ps1'
+[1.757s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/kmc_hardware_driver_node/hook/cmake_prefix_path.sh'
+[1.758s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/kmc_hardware_driver_node/hook/cmake_prefix_path.dsv'
+[1.758s] Level 1:colcon.colcon_core.environment:checking '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/lib'
+[1.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/kmc_hardware_driver_node/hook/cmake_prefix_path.sh'
+[1.759s] Level 1:colcon.colcon_core.environment:checking '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/bin'
+[1.759s] Level 1:colcon.colcon_core.environment:checking '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/lib/pkgconfig/kmc_hardware_driver_node.pc'
+[1.759s] Level 1:colcon.colcon_core.environment:checking '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/lib/python3.8/site-packages'
+[1.760s] Level 1:colcon.colcon_core.environment:checking '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/lib'
+[1.760s] Level 1:colcon.colcon_core.environment:checking '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/bin'
+[1.760s] Level 1:colcon.colcon_core.environment:checking '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/bin'
+[1.760s] Level 1:colcon.colcon_core.environment:checking '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/lib/pkgconfig/kmc_hardware_driver_node.pc'
+[1.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/kmc_hardware_driver_node/package.ps1'
+[1.760s] Level 1:colcon.colcon_core.environment:checking '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/lib/python3.8/site-packages'
+[1.761s] Level 1:colcon.colcon_core.environment:checking '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/bin'
+[1.762s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/kmc_hardware_driver_node/package.dsv'
+[1.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/kmc_hardware_driver_node/package.ps1'
+[1.763s] INFO:colcon.colcon_core.shell:Creating package script '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/kmc_hardware_driver_node/package.sh'
+[1.763s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/kmc_hardware_driver_node/package.dsv'
+[1.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/kmc_hardware_driver_node/package.bash'
+[1.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/kmc_hardware_driver_node/package.sh'
+[1.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/kmc_hardware_driver_node/package.zsh'
+[1.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/kmc_hardware_driver_node/package.bash'
+[1.766s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/colcon-core/packages/kmc_hardware_driver_node)
+[1.766s] INFO:colcon.colcon_core.shell:Creating package script '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/kmc_hardware_driver_node/package.zsh'
+[1.766s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.767s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/kmc_hardware_driver_node/share/colcon-core/packages/kmc_hardware_driver_node)
+[1.767s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.768s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.768s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.768s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.769s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.769s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.769s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.781s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.781s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.782s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.782s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.782s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.782s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.825s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.826s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/local_setup.ps1'
+[1.829s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/_local_setup_util_ps1.py'
+[1.832s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/setup.ps1'
+[1.834s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.835s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/local_setup.ps1'
+[1.836s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/local_setup.sh'
+[1.837s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/_local_setup_util_ps1.py'
+[1.838s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/_local_setup_util_sh.py'
+[1.840s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/setup.sh'
+[1.841s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/setup.ps1'
+[1.842s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/local_setup.bash'
+[1.843s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/local_setup.sh'
+[1.844s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/setup.bash'
+[1.844s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/_local_setup_util_sh.py'
+[1.846s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/setup.sh'
+[1.846s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/local_setup.zsh'
+[1.848s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/setup.zsh'
+[1.848s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/local_setup.bash'
+[1.849s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/setup.bash'
+[1.851s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/local_setup.zsh'
+[1.852s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/autonav/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2/install/setup.zsh'
