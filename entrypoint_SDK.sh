@@ -8,12 +8,9 @@ ROLE="${ROLE:-SDK}"
 echo "start SDK NODE" >&2
 echo "CAV_ID: $CAV_ID, PROBLEM_ID: $PROBLEM_ID, ROLE: $ROLE" >&2
 
-#
-cd ~/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2
-colcon build --symlink-install
-source install/setup.bash
-
 # ROS2 환경 설정
+cd ~/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2
+source install/setup.bash
 export ROS_LOCALHOST_ONLY=0
 export RMW_IMPLEMENTATION=rmw_fastrtps_cpp
 export CAV_ID=$CAV_ID
@@ -31,8 +28,10 @@ fi
 if [ "$PROBLEM_ID" = "4" ]; then
     if [ "$ROLE" = "SDK" ]; then
         export ROS_DOMAIN_ID=100
-        echo "ROS_DOMAIN_ID: $ROS_DOMAIN_ID, CAV_ID: $CAV_ID" >&2
-        ros2 run kmc_hardware_driver_node kmc_hardware_driver_demo_node_ver2 --ros-args -p port:=/dev/ttyKMC -p baud:=115200 -p vehicle_name:=cav_$CAV_ID
-        echo "Started SDK Hardware Driver for CAV_ID $CAV_ID in Problem 4" >&2
+        # CAV_ID를 2자리 포맷으로 변환 (1 -> 01, 32 -> 32)
+        CAV_ID_FORMATTED=$(printf "%02d" $CAV_ID)
+        echo "ROS_DOMAIN_ID: $ROS_DOMAIN_ID, CAV_ID: $CAV_ID (CAV_$CAV_ID_FORMATTED)" >&2
+        ros2 run kmc_hardware_driver_node kmc_hardware_driver_demo_node_ver2 --ros-args -p port:=/dev/ttyKMC -p baud:=115200 -p vehicle_name:=CAV_$CAV_ID_FORMATTED
+        echo "Started SDK Hardware Driver for CAV_$CAV_ID_FORMATTED in Problem 4" >&2
     fi
 fi

@@ -23,10 +23,10 @@ fi
 # terminal 3 : PROBLEM_ID="4" ROLE="SDK" CAV_ID="3" ./entrypoint_SDK.sh
 # terminal 4 : PROBLEM_ID="4" ROLE="SDK" CAV_ID="4" ./entrypoint_SDK.sh
 if [ "$PROBLEM_ID" = "4" ]; then
-    # PROBLEM_ID="4" ROLE="SDK" CAV_ID="32" ./entrypoint_SDK.sh &
-    PROBLEM_ID="4" ROLE="SDK" CAV_ID="32" ./entrypoint_SDK.sh &
-    # PROBLEM_ID="4" ROLE="SDK" CAV_ID="3" ./entrypoint_SDK.sh &
-    # PROBLEM_ID="4" ROLE="SDK" CAV_ID="6" ./entrypoint_SDK.sh &
+    PROBLEM_ID="4" ROLE="SDK" CAV_ID="1" ./entrypoint_SDK.sh &
+    PROBLEM_ID="4" ROLE="SDK" CAV_ID="2" ./entrypoint_SDK.sh &
+    PROBLEM_ID="4" ROLE="SDK" CAV_ID="3" ./entrypoint_SDK.sh &
+    PROBLEM_ID="4" ROLE="SDK" CAV_ID="4" ./entrypoint_SDK.sh &
     wait
     echo "All SDK NODEs started" >&2
 fi
