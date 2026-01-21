@@ -20,6 +20,11 @@ target_link_libraries(kmc_hardware_driver_demo_node KMC_HARDWARE_uart)
 ament_target_dependencies(kmc_hardware_driver_demo_node rclcpp geometry_msgs std_msgs)
 target_compile_features(kmc_hardware_driver_demo_node PUBLIC cxx_std_17)
 
+add_executable(kmc_hardware_driver_demo_node_ver2 src/driver_demo_node_ver2.cpp)
+target_link_libraries(kmc_hardware_driver_demo_node_ver2 KMC_HARDWARE_uart)
+ament_target_dependencies(kmc_hardware_driver_demo_node_ver2 rclcpp geometry_msgs std_msgs)
+target_compile_features(kmc_hardware_driver_demo_node_ver2 PUBLIC cxx_std_17)
+
 add_executable(kmc_hardware_driver_observe_node src/driver_observe_node.cpp)
 target_link_libraries(kmc_hardware_driver_observe_node KMC_HARDWARE_uart)
 ament_target_dependencies(kmc_hardware_driver_observe_node rclcpp geometry_msgs std_msgs)
@@ -50,6 +55,7 @@ install(DIRECTORY joystick/web
 
 install(TARGETS
   kmc_hardware_driver_demo_node
+  kmc_hardware_driver_demo_node_ver2
   kmc_hardware_driver_observe_node
   kmc_hardware_driver_read_allstate_node
   kmc_hardware_high_rate_control_node
