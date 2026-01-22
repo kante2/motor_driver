@@ -9,7 +9,7 @@ echo "start SDK NODE" >&2
 echo "CAV_ID: $CAV_ID, PROBLEM_ID: $PROBLEM_ID, ROLE: $ROLE" >&2
 
 # ROS2 환경 설정
-cd ~/KAIST_Mobility_Challenge_SDK/examples/Driver_ROS2
+cd ~/KAIST_MOBILITY_CHALLENGE_SDK/examples/Driver_ROS2
 source install/setup.bash
 export ROS_LOCALHOST_ONLY=0
 export RMW_IMPLEMENTATION=rmw_fastrtps_cpp
@@ -27,7 +27,7 @@ fi
 # mission_3 -> 4
 if [ "$PROBLEM_ID" = "4" ]; then
     if [ "$ROLE" = "SDK" ]; then
-        export ROS_DOMAIN_ID=100
+        export ROS_DOMAIN_ID=101
         # CAV_ID를 2자리 포맷으로 변환 (1 -> 01, 32 -> 32)
         CAV_ID_FORMATTED=$(printf "%02d" $CAV_ID)
         echo "ROS_DOMAIN_ID: $ROS_DOMAIN_ID, CAV_ID: $CAV_ID (CAV_$CAV_ID_FORMATTED)" >&2
