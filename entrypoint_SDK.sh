@@ -28,7 +28,7 @@ fi
 # mission_3 -> 4
 if [ "$PROBLEM_ID" = "4" ]; then
     if [ "$ROLE" = "SDK" ]; then
-        export ROS_DOMAIN_ID=101
+        export ROS_DOMAIN_ID=100
         # CAV_ID를 2자리 포맷으로 변환 (1 -> 01, 32 -> 32)
         CAV_ID_FORMATTED=$(printf "%02d" $CAV_ID)
         echo "ROS_DOMAIN_ID: $ROS_DOMAIN_ID, CAV_ID: $CAV_ID (CAV_$CAV_ID_FORMATTED)" >&2
