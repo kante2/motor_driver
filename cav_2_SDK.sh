@@ -24,7 +24,7 @@ fi
 # terminal 4 : PROBLEM_ID="4" ROLE="SDK" CAV_ID="4" ./entrypoint_SDK.sh
 if [ "$PROBLEM_ID" = "4" ]; then
     # only one cav_id , for this cav, 
-    PROBLEM_ID="4" ROLE="SDK" CAV_ID="2 " ./entrypoint_SDK.sh &
+    PROBLEM_ID="4" ROLE="SDK" CAV_ID="2" ./entrypoint_SDK.sh &
     # PROBLEM_ID="4" ROLE="SDK" CAV_ID="2" ./entrypoint_SDK.sh &
     # PROBLEM_ID="4" ROLE="SDK" CAV_ID="3" ./entrypoint_SDK.sh &
     # PROBLEM_ID="4" ROLE="SDK" CAV_ID="4" ./entrypoint_SDK.sh &
