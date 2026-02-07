@@ -15,7 +15,7 @@ public:
     std::string cav_id = cav_id_env ? cav_id_env : "32"; //  ** 
     // 한자리 수일 경우 앞에 0을 붙여 두자리로 만듦 (예: "1" -> "01", "32" -> "32")
     if (cav_id.length() == 1) cav_id = "0" + cav_id;
-    std::string cmd_vel_topic = "/CAV_" + cav_id + "/cmd_vel";
+    std::string cmd_vel_topic = "/CAV_" + cav_id + "/cmd_vel_"; // **** FIX TOPIC NAME 
     port_ = declare_parameter<std::string>("port", "/dev/ttyKMC");
     baud_ = declare_parameter<int>("baud", 115200);
     control_rate_hz_ = declare_parameter<double>("control_rate_hz", 100.0);
