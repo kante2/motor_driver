@@ -9,6 +9,7 @@ echo "start SDK NODE" >&2
 echo "CAV_ID: $CAV_ID, PROBLEM_ID: $PROBLEM_ID, ROLE: $ROLE" >&2
 
 # ROS2 환경 설정
+source /opt/ros/$ROS_DISTRO/setup.bash
 cd ~/KAIST_MOBILITY_CHALLENGE_SDK/examples/Driver_ROS2
 source install/setup.bash
 export ROS_LOCALHOST_ONLY=0
