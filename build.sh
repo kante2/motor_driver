@@ -1,9 +1,8 @@
 #!/bin/bash
 set -e
 
-# chmod
-# chmod +x /home/autonav/KAIST_Mobility_Challenge_SDK/build.sh
-chmod +x ~/KAIST_MOBILITY_CHALLENGE_SDK/build.sh
+cd ~/KAIST_MOBILITY_CHALLENGE_SDK
+chmod +x *
 
 # ROS2 환경 설정
 source /opt/ros/$ROS_DISTRO/setup.bash
